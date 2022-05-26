@@ -120,12 +120,13 @@ const Works = () => {
                                 <Card.Text>
                                     <code> React, JavaScript, bootstrap, html5.</code>
                                 </Card.Text>
-                                <NavLink href="code"
+                                <NavLink href="https://github.com/amarnathvattikuti/my-React-PortFolio"
+                                    target="_blank"
                                     className="btn-sm btn-primary mr-2 btns"
                                     style={{ width: 100, display: "inline-block" }}
                                     variant="primary mr-2">Code
                                 </NavLink>
-                                <NavLink href="code"
+                                <NavLink href="https://amarnath-react-portfolio.netlify.app/" target="_self"
                                     className="btn-sm btn-primary btns"
                                     style={{ width: 100, display: "inline-block" }}
                                     variant="primary">Demo
