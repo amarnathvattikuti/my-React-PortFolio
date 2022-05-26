@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+body {
+  background-color: #efefef;
+}
+
+.Title {
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-size: 1rem;
 }
 
 .App-logo {
@@ -7,32 +18,65 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.offcanvas-end {
+  background-color: #17191b;
+}
+
+.offcanvas.show {
+  background-color: #1f2124;
+}
+
+.btn-close {
+  background: none;
+  background: url(./images/btn-close.png);
+  background-size: 25px;
+  background-position: center;
+}
+
+.boxCont {
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+}
+
+.card:hover {
+  box-shadow: 15px 20px #131415;
+  width: 88%;
+  transition: all 300ms ease;
+}
+
+.btns {
+  background-color: #363d44;
+  border-radius: 20px !important;
+  color: white !important;
+  height: 32px;
+  padding-top: 3px;
+}
+
+.btns:hover {
+  background-color: #363d44;
+  border-radius: 18px !important;
+  padding-top: 5px;
+  height: 34px;
+  box-shadow: 1px 2px 2px #131415;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width: 460px) {
+  .boxCont {
+    width: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .p-5 {
+    padding: 1rem !important;
   }
 }
