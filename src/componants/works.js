@@ -5,12 +5,15 @@ import pageNation from '../images/pagenation.PNG';
 import SignUp from '../images/signup.PNG';
 import eCART from '../images/ecart.PNG';
 import Portfolio from '../images/port-folio.PNG';
+import crud from '../images/crud.PNG';
+import userauth from '../images/user-auth.png';
 
 const Works = () => {
 
     return (
         <>
-            <div className="container  p-5 mt-5">
+            <div className="container  p-2 mt-5">
+                <h2 className="TitleReact" id="react">React Works</h2>
                 <div className="row">
                     <div className="col-12 col-lg-6 d-flex justify-content-center mb-5">
                         <Card
@@ -127,6 +130,62 @@ const Works = () => {
                                     variant="primary mr-2">Code
                                 </NavLink>
                                 <NavLink href="https://amarnath-react-portfolio.netlify.app/" target="_self"
+                                    className="btn-sm btn-primary btns"
+                                    style={{ width: 100, display: "inline-block" }}
+                                    variant="primary">Demo
+                                </NavLink>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
+                <h2 className="TitleFullStack" id="fullstack">FullStack Works</h2>
+                <div className="row mb-5">
+                    
+                    <div className="col-12 col-lg-6 d-flex justify-content-center mb-5">
+                        <Card
+                            className="shadow-sm p-4 boxCont"
+                        >
+                            <Card.Img variant="top" src={crud} alt="signup"
+                            />
+                            <Card.Body>
+                                <Card.Title>FullStack CRUD Operation</Card.Title>
+                                <Card.Text>
+                                    <code> Mongo | Express | React | Node </code>
+                                </Card.Text>
+                                <NavLink href="https://github.com/amarnathvattikuti/fullstack-crud"
+                                    target="_blank"
+                                    className="btn-sm btn-primary mr-2 btns"
+                                    style={{ width: 100, display: "inline-block" }}
+                                    variant="primary mr-2">Code
+                                </NavLink>
+                                <NavLink href="https://fullstack-mern-crud-operation.netlify.app/"
+                                    target="_blank"
+                                    className="btn-sm btn-primary btns"
+                                    style={{ width: 100, display: "inline-block" }}
+                                    variant="primary">Demo
+                                </NavLink>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center mb-5">
+                        <Card
+                            className="shadow-sm p-4 boxCont"
+                        >
+                            <Card.Img variant="top" src={userauth} alt="signup"
+                            />
+                            <Card.Body>
+                                <Card.Title>FullStack User Authentication</Card.Title>
+                                <Card.Text>
+                                    <code> Mongo | Express | React | Node </code>
+                                </Card.Text>
+                                <NavLink href="https://github.com/amarnathvattikuti/user-auth-mern"
+                                    target="_blank"
+                                    className="btn-sm btn-primary mr-2 btns"
+                                    style={{ width: 100, display: "inline-block" }}
+                                    variant="primary mr-2">Code
+                                </NavLink>
+                                <NavLink href="https://user-authentication-mern.netlify.app/"
+                                    target="_blank"
                                     className="btn-sm btn-primary btns"
                                     style={{ width: 100, display: "inline-block" }}
                                     variant="primary">Demo
