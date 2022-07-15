@@ -47,7 +47,7 @@ const Header = () => {
                   <p className="text-secondary font-weight-light"> Currently working with Mahathi Sofware Private Limited as a seneor UI Developer since oct, 2015. During these years i have built multiple responsive and single page web app's for
                     health care domain and earned great knowledge on Angular and React as front-end technologies.</p>
                   <p className="text-secondary font-weight-light">I am a graduate from kakatiya university in 2007, and completed My MBA in information technology from ISBM business school(2019).</p>
-                  <p className="text-secondary font-weight-light">Front end Skills: <code>ReactJS, Redux, JavaScript, jquery, Bootstrap, Semantic UI, Tailwind, HTML5, CSS</code></p>
+                  <p className="text-secondary font-weight-light">Front end Skills: <code>ReactJS, Redux, JavaScript, jquery, Bootstrap, Material UI, Semantic UI, Tailwind, HTML5, CSS</code></p>
                   <p className="text-secondary font-weight-light">Back end Skills: <code>NODE JS, Express JS</code></p>
                   <p className="text-secondary font-weight-light">Database: <code>MongoDB, MySQL</code> </p>
                   <p className="text-secondary font-weight-light">SVN Tools: <code>SVN, GIT, Azure</code></p>
